@@ -13,7 +13,7 @@
   * key ( -- c) – read one symbol from stdin
   * emit ( c -- ) – write one symbol to stdout.
   * number ( -- n ) – read signed number from stdin
-  * mem -  load on the stack a constant - the address of the start of the user memory.
 * Memory Commands:
+  * mem -  load on the stack a constant - the address of the start of the user memory. 
   * ! (data address -- ) – writes data to address;
   * @ (address -- value) – reads the contents of memory at address;
